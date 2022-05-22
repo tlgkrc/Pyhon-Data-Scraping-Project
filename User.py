@@ -1,6 +1,5 @@
 import re
 import json
-import this
 
 
 class User:
@@ -84,4 +83,4 @@ class User:
                 self.saveUserToJson(mail, password)
                 break
             password = str(input("Lutfen sifrenizi tekrar giriniz...\n"))
-            this.password = password
+            self.password = password
