@@ -12,7 +12,7 @@ def searchProductOnSite(nameOfProduct: str):
         driver = webdriver.Chrome(chrome_options=options, executable_path=r"./drivers/chromedriver.exe")
         time.sleep(2)
         driver.maximize_window()
-        url = 'https://www.hepsiburada.com/'
+        url = '-----------------------'
         driver.get(url)
         searchInput = driver.find_element("xpath",
                                           "/html/body/div[1]/div/div/div[3]/div[6]/div/div/div/div/div[2]/div[2]/div/div/div/div/div/div/div[1]/div[2]/input")
